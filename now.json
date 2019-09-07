@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "*.php", "use": "now-php", "config": { "composer": true },
+    { "src": "*.php", "use": "now-php", "config": { "composer": true } },
     { "src": "templates/*.php", "use": "now-php", "config": { "composer": true } },
     { "src": "vendor/*.php", "use": "now-php", "config": { "composer": true } },
     { "src": "vendor/*/*.php", "use": "now-php", "config": { "composer": true } },
