@@ -2,9 +2,18 @@
   "version": 2,
   "builds": [
     { "src": "*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "plugins/*.php", "use": "now-php", "config": { "composer": true } },
     { "src": "templates/*.php", "use": "now-php", "config": { "composer": true } },
     { "src": "vendor/*.php", "use": "now-php", "config": { "composer": true } },
-    { "src": "vendor/*/*.php", "use": "now-php", "config": { "composer": true } },
-    { "src": "vendor/*/*/*.php", "use": "now-php", "config": { "composer": true } }
+    { "src": "vendor/athlon1600/php-proxy-plugin-bundle/src/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/athlon1600/php-proxy/src/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/athlon1600/youtube-downloader/src/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/composer/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/symfony/event-dispatcher/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/symfony/event-dispatcher/Debug/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/symfony/event-dispatcher/DependencyInjection/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/symfony/event-dispatcher/Tests/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/symfony/event-dispatcher/Tests/Debug/*.php", "use": "now-php", "config": { "composer": true } },
+    { "src": "vendor/symfony/event-dispatcher/Tests/DependencyInjection/*.php", "use": "now-php", "config": { "composer": true } }
   ]
 }
