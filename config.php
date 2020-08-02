@@ -8,7 +8,7 @@ $config['website-url'] = "https://" . $_SERVER['HTTP_HOST'] . "";
 $config['website-description'] = "Online Web Proxy to Bypass Block Restrictions.";
 
 // a unique key that identifies this application - DO NOT LEAVE THIS EMPTY!
-$config['app_key'] = '04e8155d1ddc8d00c578a7ffc0018692';
+$config['app_key'] = '6BFE8576777658B5EB27A29725E54';
 
 // a secret key to be used during encryption
 $config['encryption_key'] = '';
